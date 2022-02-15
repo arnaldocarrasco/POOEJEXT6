@@ -15,6 +15,7 @@ public class Ahorcado {
     private String vectorPalabra[];
     private int cantJugadas;
     private int j;
+    private int git;
 
     public int getJ() {
         return j;
