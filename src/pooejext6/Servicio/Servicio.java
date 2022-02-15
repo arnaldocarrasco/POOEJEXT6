@@ -62,6 +62,10 @@ public class Servicio {
     public void encontradas(Ahorcado ahorcado) {
         System.out.println(Arrays.toString(ahorcado.getMuestra()));
     }
+    
+    public void modGitHub(Ahorcado ahorcado) {
+        
+    }
 
     public void intentos(Ahorcado ahorcado) {
         System.out.println("Quedan " + ahorcado.getCantJugadas() + " intentos.");
